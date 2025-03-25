@@ -8,7 +8,7 @@ import Script from 'next/script';
 import * as gtag from '../utils/gtag';
 import '../styles/globals.css';
 import '../styles/slider.css';
-import '../styles/workoutSlider.css';
+//import '../styles/workoutSlider.css';
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const router = useRouter();
