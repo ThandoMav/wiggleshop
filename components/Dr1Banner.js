@@ -4,7 +4,7 @@ import React from 'react';
 const About = () => {
   return (
     <>
-    <section className="wrapper !bg-[#edf2fc]">
+    <section className="wrapper !bg-primary-500">
       <div className="container pt-10 pb-14 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] xl:pb-24 lg:pb-24 md:pb-24 !text-center">
         <div className="flex flex-wrap mx-[-15px]">
           <div className="md:w-9/12 lg:w-7/12 xl:w-5/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
