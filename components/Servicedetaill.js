@@ -63,7 +63,7 @@ const PostDetail = ({ post, addToCartHandler }) => {
             
             <button
               className="w-full btnBeauty btn-secondaryBeauty text-primary-500"
-              onClick={() => addToCartHandler(product)}
+              onClick={addToCartHandler}
             >
                Book Now! 
           </button>
