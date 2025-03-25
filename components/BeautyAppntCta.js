@@ -14,7 +14,7 @@ const About = () => {
       >
 
        <div className="grid grid-cols-1 pb-8 text-center">
-            <h3 className="text-white mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
+            <h3 className="text-white mb-4 md:text-3xl md:leading-normal text-2xl leading-normal">
             Book Your Beauty Journey Today – We Can’t Wait to Pamper You! 
             </h3>
             <button
