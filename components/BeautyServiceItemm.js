@@ -17,7 +17,7 @@ export default function DrItem({ product,addToCartHandler }) {
       <div className="flex items-center justify-center mt-1">
         
         <button
-              className="mx-auto btnBeauty btn-secondaryBeauty text-primary-500"
+              className="mx-auto btnBeauty btn-secondaryBeauty text-white"
               onClick={() => addToCartHandler(product)}
             >
                Book Now! 

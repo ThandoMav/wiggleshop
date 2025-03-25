@@ -62,7 +62,7 @@ const PostDetail = ({ post, addToCartHandler }) => {
             <span className="align-middle">
             
             <button
-              className="w-full btnBeauty btn-secondaryBeauty text-primary-500"
+              className="w-full btnBeauty btn-secondaryBeauty text-white"
               onClick={addToCartHandler}
             >
                Book Now! 
