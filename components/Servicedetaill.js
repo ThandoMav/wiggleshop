@@ -60,12 +60,13 @@ const PostDetail = ({ post, addToCartHandler }) => {
           <div className="font-medium text-gray-700">
             
             <span className="align-middle">
+            
             <button
-              className="btnBB secondaryBeauty w-full"
-              onClick={addToCartHandler}
+              className="w-full btnBeauty btn-secondaryBeauty text-primary-500"
+              onClick={() => addToCartHandler(product)}
             >
-              Start Project!
-            </button>
+               Book Now! 
+          </button>
               </span>
           </div>
         </div>

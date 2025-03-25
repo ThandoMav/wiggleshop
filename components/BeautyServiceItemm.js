@@ -17,12 +17,11 @@ export default function DrItem({ product,addToCartHandler }) {
       <div className="flex items-center justify-center mt-1">
         
         <button
-          className="btnBB secondaryBeauty"
-          type="button"
-          onClick={() => addToCartHandler(product)}
-        >
-         Book Now!
-        </button>
+              className="mx-auto btnBeauty btn-secondaryBeauty text-primary-500"
+              onClick={() => addToCartHandler(product)}
+            >
+               Book Now! 
+          </button>
       </div>
     </div>
   );
