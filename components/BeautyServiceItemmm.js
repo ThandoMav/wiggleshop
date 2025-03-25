@@ -18,9 +18,9 @@ export default function DrItem({ product }) {
         
         <button
               className="mx-auto btnBeauty btn-secondaryBeauty text-white"
-              onClick={() => addToCartHandler(product)}
+              
             >
-               Book Now! 
+               View 
           </button>
       </div>
     </div>

@@ -5,12 +5,12 @@ import Product from '../models/Post';
 import db from '../utils/db';
 
 export default function Search(props) {
-  const router = useRouter();
+  
   const { products } = props;
 
  
   return (
-    <Layout title="Salon Search">
+    <Layout title="Salon Posts">
       <BeautyServicess products={products}/> 
     </Layout>
   );
