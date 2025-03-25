@@ -14,7 +14,7 @@ const About = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
           <section className="py-28 w-full table relative bg-product bg-center bg-no-repeat bg-cover jarallax" data-jarallax data-speed="0.5">
-        <div className="absolute inset-0 bg-slate-900/30"></div>
+        <div className="absolute inset-0 bg-slate-900/20"></div>
         <div className="container relative">
             <div className="grid grid-cols-1 text-center">
                 <h3 className="mb-4 md:text-4xl text-3xl text-white font-bold"> Products</h3>
@@ -34,7 +34,7 @@ const About = () => {
         </div>
     </section>
     <section className="py-28 w-full table relative bg-about bg-center bg-no-repeat bg-cover jarallax" data-jarallax data-speed="0.5">
-        <div className="absolute inset-0 bg-slate-900/30"></div>
+        <div className="absolute inset-0 bg-slate-900/20"></div>
         <div className="container relative">
             <div className="grid grid-cols-1 text-center">
                 <h3 className="mb-4 md:text-4xl text-3xl text-white font-bold">About us</h3>
