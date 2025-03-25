@@ -48,6 +48,7 @@ const About = () => {
                 <i className="uil uil-syringe"></i>
               </div>
 
+
               <div className="content mt-7">
                 <Link
                   href="/"

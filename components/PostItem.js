@@ -33,7 +33,7 @@ export default function PostItem({ post }) {
           
         </p>
         <button
-          className="primary-button"
+          className="btnBeauty secondaryBeauty"
           type="button"
         >
           <Link href={`/post/${post.slug}`}> View</Link>
