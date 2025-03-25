@@ -108,6 +108,9 @@ body {
   .btn-secondaryBeauty {
     @apply bg-primary-500 hover:bg-primary-600;
   }
+  .btn-secondaryyBeauty {
+    @apply bg-primary-700 hover:bg-primary-600;
+  }
   .btn-whiteBeauty {
     @apply bg-white hover:bg-primary-600;
   }

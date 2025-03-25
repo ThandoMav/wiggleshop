@@ -42,7 +42,7 @@ const About = () => {
                 <div className="mt-6">
                   <Link href={`/about-us`}>
                     <button
-                       className="mx-auto btnBeauty btn-secondaryBeauty"
+                       className="mx-auto btnBeauty btn-secondaryyBeauty"
                        data-aos="fade-down"
                        data-aos-delay="700"
                      >
