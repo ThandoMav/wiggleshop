@@ -727,21 +727,26 @@ export const BeautyfooterData = {
   phone: '1-232-3434 (Main)',
   list1: [
     {
-      name: 'Profile',
+      name: 'Massage Spa',
       href: '#',
     },
     {
-      name: 'Features',
+      name: 'Manicure',
       href: '#',
     },
     {
-      name: 'Careers',
+      name: 'Pedicure',
       href: '#',
     },
     {
-      name: 'DW News',
+      name: 'Facials',
       href: '#',
     },
+    {
+      name: 'Waxing and Tinting',
+      href: '#',
+    },
+    
   ],
   list2: [
     {

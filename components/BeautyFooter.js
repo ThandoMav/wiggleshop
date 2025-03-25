@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   // destructure footer data
-  const { logo, footerFlower, address, email, phone, list1, } = BeautyfooterData;
+  const { logo, footerFlower, list1, } = BeautyfooterData;
   return (
     <footer className='bg-primary-700 px-8 py-8 lg:px-32' data-aos='fade-up'>
       <div className='container mx-auto'>
@@ -21,12 +21,13 @@ const Footer = () => {
             
             {/* address */}
             <div className='max-w-[260px] mb-5 text-primary font-bold'>
-              {address}
+               Let Us Connect
             </div>
             {/* email */}
-            <div className='font-light italic'>{email}</div>
+            <div className='font-light italic'>thandekahlatshwayo662@gmail.com</div>
             {/* phone */}
-            <div className='font-light italic'>{phone}</div>
+            <div className='font-light'>Be the first to hear about new treatments,
+            promotions and tips to get that feeling.</div>
             <Link href={`/about-us`}>
                     <button
                        className="mx-auto btnB my-6"
@@ -43,7 +44,7 @@ const Footer = () => {
           <div className='flex flex-1 flex-col gap-y-14 xl:flex-row justify-between'>
             {/* list 1 */}
             <div>
-              <div className='font-extrabold text-primary mb-8'>About</div>
+              <div className='font-extrabold text-primary mb-8'>Services</div>
               <ul className='flex flex-col gap-y-4'>
                 {list1.map((item, index) => {
                   return (
