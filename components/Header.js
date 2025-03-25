@@ -140,9 +140,9 @@ const Header = () => {
         className="lg:hidden absolute right-4"
       >
         {navMobile ? (
-          <RiCloseFill className="text-3xl text-primary-200 cursor-pointer" />
+          <RiCloseFill className="text-3xl text-primary-500 cursor-pointer" />
         ) : (
-          <RiMenu4Fill className="text-3xl text-primary-200 cursor-pointer" />
+          <RiMenu4Fill className="text-3xl text-primary-500 cursor-pointer" />
         )}
       </div>
 
