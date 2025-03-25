@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
             {/* list 2 */}
             <div>
-            <div className='mx-auto flex flex-col items-center '>
+            <div className='hidden lg:mx-auto flex flex-col items-center '>
             {/* logo */}
             <a href='#'>
               <Image
