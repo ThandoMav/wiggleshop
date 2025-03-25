@@ -112,7 +112,7 @@ body {
     @apply bg-primary-700 hover:bg-primary-600;
   }
   .btn-whiteBeauty {
-    @apply bg-white hover:bg-primary-600;
+    @apply bg-white hover:bg-primary-600 hover:text-white;
   }
   .btn-quaternaryBeauty {
     @apply bg-white text-base font-bold text-primary drop-shadow-primary hover:bg-accent-primary_hover hover:text-white;

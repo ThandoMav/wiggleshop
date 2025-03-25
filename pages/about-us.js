@@ -14,7 +14,7 @@ import Dr1Banner from '../components/Dr1Banner';
 
 export default function AboutMe() {
   return (
-    <Layout title="About Me - Thando Mav Web">
+    <Layout title="About Us">
       <Dr1Banner /> 
       <Servicesa /> 
       
