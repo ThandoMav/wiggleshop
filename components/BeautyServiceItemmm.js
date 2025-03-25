@@ -7,7 +7,7 @@ export default function DrItem({ product }) {
   return (
     <div className="group relative overflow-hidden hover:shadow-lg hover:dark:shadow-gray-800 rounded-md duration-500 p-6 text-center">
       <Image
-        src={product.image1}
+        src={product.image}
         alt="hjh"
         width={500}
         height={500}
