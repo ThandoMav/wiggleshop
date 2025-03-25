@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   // destructure footer data
-  const { logo, footerFlower, address, email, phone, list1, list2, socialList } = BeautyfooterData;
+  const { logo, footerFlower, address, email, phone, list1, } = BeautyfooterData;
   return (
     <footer data-aos='fade-up'>
       <div className='container mx-auto'>
