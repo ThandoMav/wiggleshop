@@ -101,7 +101,7 @@ export const data = {
   ],
   categories: [
     {
-      name: 'Facials That Glow',
+      name: 'Facials',
       slug: 'facials-that-glow',
       category: 'Shirts',
       image: '/salon/facial.png',
