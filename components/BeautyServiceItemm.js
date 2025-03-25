@@ -17,7 +17,7 @@ export default function DrItem({ product,addToCartHandler }) {
       <div className="flex items-center justify-center mt-1">
         
         <button
-          className="btnBeauty secondaryBeauty"
+          className="btnBB secondaryBeauty"
           type="button"
           onClick={() => addToCartHandler(product)}
         >

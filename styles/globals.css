@@ -99,6 +99,9 @@ body {
   .btnBeauty {
     @apply text-lg h-[60px] px-[30px] rounded-full transition text-white;
   }
+  .btnBB {
+    @apply text-lg h-[60px] px-[30px] rounded-full transition text-gray;
+  }
   .btnB {
     @apply text-lg px-[30px] rounded-full transition text-white bg-primary-500 hover:bg-primary-600;
   }
