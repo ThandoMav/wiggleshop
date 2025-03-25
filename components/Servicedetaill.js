@@ -61,7 +61,7 @@ const PostDetail = ({ post, addToCartHandler }) => {
             
             <span className="align-middle">
             <button
-              className="primary-button w-full"
+              className="btnBB secondaryBeauty w-full"
               onClick={addToCartHandler}
             >
               Start Project!
