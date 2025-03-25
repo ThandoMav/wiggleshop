@@ -547,7 +547,7 @@ export const testimonialsSalon = {
     {
       message:
         '"Wow, what an amazing experience! The massage I received was heavenly—just what I needed to unwind after a long week. The atmosphere is so calming, and the attention to detail is unmatched. I loved how the therapist tailored the session to my needs.I’ll definitely be back for more',
-        image: '/salon/test.jpg',
+        image: '/salon/test2.JPG',
       name: 'Trudy Kganane',
       position: 'CEO',
       borderColor: '#FFBE21',
@@ -555,7 +555,7 @@ export const testimonialsSalon = {
     {
       message:
         ' I had the most relaxing day at Blissful Retreat Spa. From the moment I walked in, I felt transported to a tranquil oasis. The body wrap and manicure were fantastic, but the real highlight was the staffs genuine care and expertise. I left feeling pampered and refreshed. This is my new go-to for self-care!',
-        image: '/salon/test.jpg',
+        image: '/salon/test3.jpg',
       name: 'Dr. Joel Mavuso',
       position: 'CEO',
       borderColor: '#4756DF',
