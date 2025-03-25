@@ -7,7 +7,7 @@ import React from 'react';
 const About = () => {
   return (
     <>
-      <section className="py-10 mb-10 bg-primary-200">
+      <section className="py-10 mb-10 bg-primary-500">
         <div className="container mx-auto">
         <div
         className='flex justify-center'

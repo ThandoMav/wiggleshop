@@ -202,7 +202,7 @@ export const nav = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about-us' },
   { name: ' Products  ', href: '/search' },
-  { name: 'Treatments With Uso', href: '/search-services' },
+  { name: 'Treatments', href: '/search-services' },
   { name: 'Posts', href: '/search-posts' },
   { name: 'Contact', href: '/contact' },
 ];
