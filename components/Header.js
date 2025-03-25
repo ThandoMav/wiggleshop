@@ -42,7 +42,7 @@ const Header = () => {
   };
 
   // destructure header data
-  const { btnLoginText, logo, logoV2 } = header;
+  const { logo, logoV2 } = header;
   return (
     <header
       className={`${
@@ -122,8 +122,8 @@ const Header = () => {
   
           <div>
             <Link href="/login">
-              <button className="btn btn-sm text-gray-500 hover:text-primary-200 transition">
-                {btnLoginText}
+              <button className="w-full btnBeauty btn-secondaryBeauty text-white">
+                Book
               </button>
             </Link>
           </div>

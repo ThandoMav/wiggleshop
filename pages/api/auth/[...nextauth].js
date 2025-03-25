@@ -36,6 +36,7 @@ export default NextAuth({
             image: 'f',
             isAdmin: user.isAdmin,
           };
+          res.redirect('/search-service')
         }
         throw new Error('Invalid email or password');
       },

@@ -74,10 +74,10 @@ const { status, data: session } = useSession();
       ) : (
         <div>
           <Link href="/login">
-            <button className="btn btn-sm text-white hover:text-primary-500 transition">
-              Login
-            </button>
-          </Link>
+              <button className="w-full btnBeauty btn-secondaryBeauty text-white">
+                Book
+              </button>
+            </Link>
         </div>
       )}
       <Link href="/cart">

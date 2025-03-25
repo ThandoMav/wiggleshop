@@ -45,6 +45,7 @@ async function handler(req, res) {
     email: user.email,
     isAdmin: user.isAdmin,
   });
+  res.redirect('/search-service')
 }
 
 export default handler;
