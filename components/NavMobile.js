@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { useSession, signOut } from 'next-auth/react';
 import Cookies from 'js-cookie';
 import 'react-toastify/dist/ReactToastify.css';
-
+import { useRouter } from 'next/router';
 import { Store } from '../utils/Store';
 import { Menu } from '@headlessui/react';
 import DropdownLink from './DropdownLink';
@@ -11,7 +11,7 @@ import Link from 'next/link';
 import { nav } from '../utils/data';
 
 const NavMobile = ({ navMobile }) => {
-
+const router = useRouter();
 const { status, data: session } = useSession();
     const { state, dispatch } = useContext(Store);
     const { cart } = state;

@@ -16,12 +16,13 @@ import { header } from '../utils/data';
 // import components
 import Nav from '../components/Nav';
 import NavMobile from './NavMobile';
+import { useRouter } from 'next/router';
 
 /// import icons
 import { RiMenu4Fill, RiCloseFill } from 'react-icons/ri';
 
 const Header = () => {
- 
+ const router = useRouter();
     const { status, data: session } = useSession();
     const { state, dispatch } = useContext(Store);
     const { cart } = state;
