@@ -99,11 +99,7 @@ const Header = () => {
                   Appointment History
                 </DropdownLink>
               </Menu.Item>
-              <Menu.Item>
-                <DropdownLink className="dropdown-link" href="/bus-history">
-                  Business History
-                </DropdownLink>
-              </Menu.Item>
+             
               <Menu.Item>
                 <DropdownLink className="dropdown-link" href="/admin/dashboard">
                   Admin Dashboard

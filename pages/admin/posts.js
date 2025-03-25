@@ -96,7 +96,7 @@ export default function AdminPostsScreen() {
     <Layout title="Admin posts">
       <div className="grid md:grid-cols-4 md:gap-5 py-2 mt-6 px-6  md:mt-32 md:px-32">
         <div>
-          <ul>
+        <ul>
             <li>
               <Link href="/admin/dashboard">Dashboard</Link>
             </li>
@@ -107,9 +107,6 @@ export default function AdminPostsScreen() {
               <Link href="/admin/products" className="font-bold">
                 Products
               </Link>
-            </li>
-            <li>
-              <Link href="/admin/best-doctors">Doctors</Link>
             </li>
             <li>
               <Link href="/admin/users">Users</Link>

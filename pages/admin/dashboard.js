@@ -93,19 +93,10 @@ function AdminDashboardScreen() {
               </Link>
             </li>
             <li>
-              <Link href="/admin/best-doctors">Doctors</Link>
-            </li>
-            <li>
               <Link href="/admin/users">Users</Link>
             </li>
             <li>
               <Link href="/admin/appointments">Appointments</Link>
-            </li>
-            <li>
-              <Link href="/admin/home-services">Home Services</Link>
-            </li>
-            <li>
-              <Link href="/admin/rentals">Rentals</Link>
             </li>
             <li>
               <Link href="/admin/services">Services</Link>

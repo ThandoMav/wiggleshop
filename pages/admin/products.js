@@ -97,36 +97,33 @@ export default function AdminProdcutsScreen() {
       <div className="grid md:grid-cols-4 md:gap-5 py-2 mt-6 px-6  md:mt-32 md:px-32">
         <div>
           <ul>
-            <li>
-              <Link href="/admin/dashboard">Dashboard</Link>
-            </li>
-            <li>
-              <Link href="/admin/orders">Orders</Link>
-            </li>
-            <li>
-              <Link href="/admin/products" className="font-bold">
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link href="/admin/best-doctors">Doctors</Link>
-            </li>
-            <li>
-              <Link href="/admin/users">Users</Link>
-            </li>
-            <li>
-              <Link href="/admin/appointments">Appointments</Link>
-            </li>
-            <li>
-              <Link href="/admin/services">Services</Link>
-            </li>
-            <li>
-              <Link href="/admin/freebies">Freebies</Link>
-            </li>
-            <li>
-              <Link href="/admin/posts">Posts</Link>
-            </li>
-          </ul>
+          <li>
+            <Link href="/admin/dashboard">Dashboard</Link>
+          </li>
+          <li>
+            <Link href="/admin/orders">Orders</Link>
+          </li>
+          <li>
+            <Link href="/admin/products" className="font-bold">
+              Products
+            </Link>
+          </li>
+          <li>
+            <Link href="/admin/users">Users</Link>
+          </li>
+          <li>
+            <Link href="/admin/appointments">Appointments</Link>
+          </li>
+          <li>
+            <Link href="/admin/services">Services</Link>
+          </li>
+          <li>
+            <Link href="/admin/freebies">Freebies</Link>
+          </li>
+          <li>
+            <Link href="/admin/posts">Posts</Link>
+          </li>
+        </ul>
         </div>
         <div className="overflow-x-auto md:col-span-3">
           <div className="flex justify-between">

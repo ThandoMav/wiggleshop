@@ -26,7 +26,7 @@ const { status, data: session } = useSession();
     <nav
       className={`${
         navMobile ? 'min-h-screen' : 'min-h-0'
-      } w-full fixed top-0 left-0 right-0 bg-neutral-500 -bottom-12 -z-10 lg:hidden overflow-hidden transition-all h-0`}
+      } w-full fixed top-0 left-0 right-0 bg-primary-700 -bottom-12 -z-10 lg:hidden overflow-hidden transition-all h-0`}
     >
     {/* buttons */}
       <div className="mt-8 flex justify-center align-items gap-x-8">
@@ -53,11 +53,7 @@ const { status, data: session } = useSession();
                 Appointment History
               </DropdownLink>
             </Menu.Item>
-            <Menu.Item>
-                <DropdownLink className="dropdown-link" href="/bus-history">
-                   Business History
-                </DropdownLink>
-            </Menu.Item>
+            
             <Menu.Item>
               <DropdownLink className="dropdown-link" href="/admin/dashboard">
                 Admin Dashboard
@@ -78,12 +74,9 @@ const { status, data: session } = useSession();
       ) : (
         <div>
           <Link href="/login">
-            <button className="btn btn-sm text-white hover:text-primary-200 transition">
+            <button className="btn btn-sm text-white hover:text-primary-500 transition">
               Login
             </button>
-          </Link>
-          <Link href="/register">
-            <button className="btn btn-sm btn-primary">Sign up</button>
           </Link>
         </div>
       )}
