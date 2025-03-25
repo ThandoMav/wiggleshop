@@ -5,7 +5,7 @@ import { nav } from '../utils/data';
 
 const Nav = ({header}) => {
   return (
-    <nav className={`${header ? 'text-gray-500' : 'text-white'}
+    <nav className={`${header ? 'text-primary-500' : 'text-white'}
         hidden lg:flex`}>
       <ul className="flex gap-x-8 ">
         {nav.map((item, idx) => {
@@ -13,7 +13,7 @@ const Nav = ({header}) => {
             <li key={idx}>
               <Link
                 href={item.href}
-                className="hover:text-primary-200 transition"
+                className="hover:text-primary-700 transition"
               >
                 {item.name}
               </Link>
