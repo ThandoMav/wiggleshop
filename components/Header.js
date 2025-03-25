@@ -121,11 +121,13 @@ const Header = () => {
 
   
           <div>
-            <Link href="/login">
-              <button className="w-full btnBeauty btn-secondaryBeauty text-white">
+            
+              <button
+                onClick={() => router.push('login?redirect=/search-services')}
+                className="w-full btnBeauty btn-secondaryBeauty text-white">
                 Book
               </button>
-            </Link>
+            
           </div>
         )}
 

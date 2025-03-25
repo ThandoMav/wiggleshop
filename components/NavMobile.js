@@ -73,12 +73,14 @@ const { status, data: session } = useSession();
         </Menu>
       ) : (
         <div>
-          <Link href="/login">
-              <button className="w-full btnBeauty btn-secondaryBeauty text-white">
-                Book
-              </button>
-            </Link>
-        </div>
+            
+        <button
+          onClick={() => router.push('login?redirect=/search-services')}
+          className="w-full btnBeauty btn-secondaryBeauty text-white">
+          Book
+        </button>
+      
+       </div>
       )}
       <Link href="/cart">
       {cart.cartItems.length > 0 && (
