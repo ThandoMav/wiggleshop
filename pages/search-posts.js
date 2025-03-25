@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import Layout from '../components/Layout';
 import BeautyServicess from '../components/BeautyServicessss';
 import Product from '../models/Post';
