@@ -49,12 +49,12 @@ const ClientSlider = ({ clients }) => {
                 <div className="group relative overflow-hidden hover:shadow-lg rounded-md duration-500 p-6 text-center">
                   <Image
                     src={image}
-                    alt={message}
-                    width={500}
-                    height={500}
+                    alt="jhjh"
+                    width={600}
+                    height={600}
                    className="rounded-full shadow-md  h-20 w-20 block mx-auto mb-2"
                  ></Image>
-                 <Link href={`/search-best-doctors?category=${message}`} className="font-semibold hover:text-indigo-600 text-lg">{message}</Link>
+                 <Link href="/" className="font-semibold hover:text-primary-600 text-lg">{message}</Link>
                </div>
               </div>
             
