@@ -18,7 +18,7 @@ const About = () => {
             Book Your Beauty Journey Today – We Can’t Wait to Pamper You! 
             </h3>
             <button
-              className="mx-auto btnBeauty btn-whiteBeauty"
+              className="mx-auto btnBeauty btn-whiteBeauty text-primary-500"
               data-aos="fade-down"
               data-aos-delay="700"
             >
