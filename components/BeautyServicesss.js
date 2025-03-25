@@ -4,7 +4,7 @@ import CategoryItem from './BeautyServiceItemm';
 // import data
 //import { data } from '../utils/data';
 
-const Banner = ({products}) => {
+const Banner = ({products, addToCartHandler}) => {
   // destructure banner data
   return (
     <section className="relative py-16">
