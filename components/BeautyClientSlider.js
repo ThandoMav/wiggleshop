@@ -54,7 +54,7 @@ const ClientSlider = ({ clients }) => {
                     height={600}
                    className="rounded-full shadow-md  h-20 w-20 block mx-auto mb-2"
                  ></Image>
-                 <Link href="/" className="font-semibold hover:text-primary-600 text-lg">{message}</Link>
+                 <Link href="/" className="hover:text-primary-600">{message}</Link>
                </div>
               </div>
             
