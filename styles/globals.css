@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+body {
+  padding: 0;
+  margin: 0;
+ }
+  body {
+    @apply font-secondary text-neutral-400 bg-[#e5e5e5];
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .card {
+    @apply mb-5  block   rounded-lg border border-gray-200  shadow-md;
+  }
+  
+  .primary-button {
+    @apply rounded bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400  active:bg-amber-500;
+  }
+  .default-button {
+    @apply rounded bg-gray-100 py-2  px-4 text-black shadow outline-none hover:bg-gray-200  active:bg-gray-300;
+  }
+  
+  input,
+  select,
+  textarea {
+    @apply rounded border p-2  outline-none ring-indigo-300  focus:ring;
+  }
+
+  .dropdown-link {
+    @apply flex p-2 hover:bg-gray-200;
+  }
+  
+  .alert-error {
+    @apply my-3 rounded-lg bg-red-100 p-3 text-red-700;
+  }
+  
+  .alert-success {
+    @apply my-3 rounded-lg bg-green-100 p-3 text-green-700;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary text-neutral-500;
+  }
+  .h1 {
+    @apply text-[40px] leading-[40px] lg:text-[60px] lg:leading-[62px] font-extrabold;
+  }
+  .h2 {
+    @apply text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold;
+  }
+  .h3 {
+    @apply text-[38px] leading-[46px] font-extrabold;
+  }
+  .h4 {
+    @apply text-[30px] leading-[46px] font-extrabold;
+  }
+  .h5 {
+    @apply text-[24px] leading-[32px] font-extrabold;
+  }
+  .h6 {
+    @apply text-[18px] leading-[28px] font-bold;
+  }
+  .text-body-sm {
+    @apply font-secondary font-normal text-[16px] leading-[26px];
+  }
+  .text-body-md {
+    @apply font-secondary font-normal text-[20px] leading-[32px];
+  }
+  .text-body-lg {
+    @apply font-secondary font-normal text-[24px] leading-[34px];
+  }
+  .btn {
+    @apply flex justify-center items-center rounded-[1px];
+  }
+  .btn-sm {
+    @apply font-primary font-bold uppercase text-[12px] leading-[18px] h-[42px] px-[30px] tracking-[1px];
+  }
+  .btn-lg {
+    @apply font-primary font-bold uppercase text-[14px] leading-[18px] h-[46px] px-[40px] tracking-[1px];
+  }
+  .btn-primary {
+    @apply bg-primary-200 text-neutral-100 hover:bg-primary-200/90 transition;
+  }
+  .btn-secondary {
+    @apply bg-white text-neutral-500 hover:bg-white/90 transition;
+  }
+
+  .btnBeauty {
+    @apply text-lg h-[60px] px-[30px] rounded-full transition text-white;
+  }
+  .btnB {
+    @apply text-lg px-[30px] rounded-full transition text-white bg-accent-secondary hover:bg-accent-secondary_hover;
+  }
+  .btn-primaryBeauty {
+    @apply bg-accent-primary hover:bg-accent-primary_hover;
+  }
+  .btn-secondaryBeauty {
+    @apply bg-accent-secondary hover:bg-accent-secondary_hover;
+  }
+  .btn-quaternaryBeauty {
+    @apply bg-white text-base font-bold text-primary drop-shadow-primary hover:bg-accent-primary_hover hover:text-white;
+  }
+
+  .link {
+    @apply text-neutral-500 text-sm uppercase font-extrabold tracking-[1px];
+  }
+  .section {
+    @apply pb-[80px] md:pb-[110px] lg:pb-[180px];
+  }
+  .section-title-group {
+    @apply flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[80px];
+  }
+  .section-title {
+    @apply flex -space-x-4;
+  }
+}
+
+
+.react-time-picker__wrapper {
+  border: none;
+}
+.react-time-picker__inputGroup__input {
+  outline: none;
+}
