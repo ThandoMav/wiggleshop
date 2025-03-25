@@ -100,13 +100,16 @@ body {
     @apply text-lg h-[60px] px-[30px] rounded-full transition text-white;
   }
   .btnB {
-    @apply text-lg px-[30px] rounded-full transition text-white bg-accent-secondary hover:bg-accent-secondary_hover;
+    @apply text-lg px-[30px] rounded-full transition text-white bg-primary-500 hover:bg-primary-600;
   }
   .btn-primaryBeauty {
-    @apply bg-accent-primary hover:bg-accent-primary_hover;
+    @apply bg-primary-500 hover:bg-primary-600;
   }
   .btn-secondaryBeauty {
-    @apply bg-accent-secondary hover:bg-accent-secondary_hover;
+    @apply bg-primary-500 hover:bg-primary-600;
+  }
+  .btn-whiteBeauty {
+    @apply bg-white hover:bg-primary-600;
   }
   .btn-quaternaryBeauty {
     @apply bg-white text-base font-bold text-primary drop-shadow-primary hover:bg-accent-primary_hover hover:text-white;
