@@ -32,7 +32,7 @@ const BackToTop = () => {
           </a>
         <button
           onClick={() => scrollToTop()}
-          className="btn-secondary bg-primary-200 flex items-center justify-center  w-12 h-12 bg-primary-hover rounded-sm cursor-pointer text-white text-sm z-10"
+          className="btn-secondary bg-primary-500 hover:bg-primary-600 flex items-center justify-center  w-12 h-12 rounded-sm cursor-pointer text-white text-sm z-10"
         >
           <FaChevronUp />
         </button>

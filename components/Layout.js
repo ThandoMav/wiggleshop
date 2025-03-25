@@ -13,7 +13,7 @@ export default function Layout({ children, title }) {
   return (
     <>
       <Head>
-        <title>{title ? title : 'HlengiZulu'}</title>
+        <title>{title ? title : 'Salon'}</title>
         <meta name="student blog" content="student Website" />
         <meta name="monetag" content="7dfb0ee4ccebd9518e6723ad5b453b9b" />
         <meta
