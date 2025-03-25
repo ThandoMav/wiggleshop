@@ -45,7 +45,7 @@ module.exports = {
         faq: "url('/img/faq/bg.svg')",
         hero: "url('/imagesTr/hero/hero.jpg')",
         product: "url('/salon/products.jpg')",
-        about: "url('/salon/about.jpg')",
+        about: "url('/salon/about.JPG')",
       },
       backgroundSize: {
         auto: 'auto',
