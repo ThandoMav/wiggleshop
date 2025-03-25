@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Copyright = () => {
   return (
-    <div className="text-center py-6 border-t border-[#2B2B2B] text-[#DBDBDB]">
+    <div className="text-center py-6 border-b border-white bg-primary-500 text-gray">
       <div className="container mx-auto">
         <motion.div
           initial={{ y: 40, opacity: 0 }}

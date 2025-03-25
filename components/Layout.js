@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './BeautyFooter';
-import Copyright from './BeautyCopyright';
+import Copyright from './Copyright';
 
 export default function Layout({ children, title }) {
   return (
