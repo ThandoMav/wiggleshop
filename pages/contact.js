@@ -29,20 +29,19 @@ export default function Contact() {
   return (
     <Layout title="Contact Me">
       <section className="py-14 mt-32" id="home">
-        <div className="container mx-auto">
-          <div className="lg:flex justify-center">
-            <div className="lg:w-2/3 mx-2">
-              <div className="text-center">
-                <h1 className="text-4xl font-semibold leading-[50px] tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-blue-600 mb-10">
-                  Let&apos;s keep in touch.
-                </h1>
-                <p className="text-base text-gray-400">
-                Achieve growth, efficiency, and work-life balance with cutting-edge web solutions, automation, and passive income strategies.
-                </p>
-              </div>
-            </div>
+      <section className="wrapper !bg-primary-700 h-[500px]">
+      <div className="container pt-10 pb-14 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] xl:pb-24 lg:pb-24 md:pb-24 !text-center">
+        <div className="flex flex-wrap mx-[-15px] mt-32">
+          <div className="md:w-9/12 lg:w-7/12 xl:w-5/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
+            <h1 className="text-[calc(1.365rem_+_1.38vw)] font-bold leading-[1.2] xl:text-[2.4rem] !mb-3">Let&apos;s keep in touch.</h1>
+            <p className="lead xxl:!px-[2.5rem] leading-[1.65] text-[0.9rem] font-medium">
+            Nestled in the heart of Nelspruit Mbombela, our salon offers a wide range of day-to-day beauty treatments.
+            </p>
           </div>
         </div>
+      </div>
+    </section>
+        
 
         <div className="container mt-6 mx-auto px-16">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -52,9 +51,9 @@ export default function Contact() {
                   <h1 className=" text-base font-medium mb-2">Email Address</h1>
                   <a
                     className="text-gray-400 text-sm font-medium"
-                    href="mailto:thandomavweb@gmail.com"
+                    href="mailto:thandekahlatshwayo662@gmail.com"
                   >
-                    thandomavweb@gmail.com
+                    thandekahlatshwayo662@gmail.com
                   </a>
                 </div>
 
@@ -71,7 +70,7 @@ export default function Contact() {
                 <div className="mb-6">
                   <h1 className=" text-base font-medium mb-2">Address</h1>
                   <h1 className="text-gray-400 text-sm">
-                  429 Moya, KaNyamazane
+                    Mbombela
                   </h1>
                 </div>
               </div>
