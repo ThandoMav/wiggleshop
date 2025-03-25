@@ -13,7 +13,7 @@ export default function DrItem({ category }) {
         height={500}
         className="h-25 w-25 block mx-auto mb-2"
       ></Image>
-      <Link href={`/search-search?category=${category.name}`} className="hover:text-primary-500">{category.name}</Link>
+      <Link href={`/service/${category.slug}`} className="hover:text-primary-500">{category.name}</Link>
     </div>
   );
 }

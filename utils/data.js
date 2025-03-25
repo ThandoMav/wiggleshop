@@ -102,31 +102,31 @@ export const data = {
   categories: [
     {
       name: 'Facials That Glow',
-      slug: '/search-best-doctors',
+      slug: '/facials-that-glow',
       category: 'Shirts',
       image: '/salon/facial.png',
     },
     {
       name: 'Massage Therapy for Total Relaxation',
-      slug: '/search-best-doctors',
+      slug: '/massages',
       category: 'Shirts',
       image: '/salon/massage.png',
     },
     {
       name: 'Pedicures and Manicures – Perfectly Polished',
-      slug: '/search-best-doctors',
+      slug: '/pedicures-and-manicures',
       category: 'Shirts',
       image: '/salon/pedicure.png',
     },
     {
       name: 'Smooth Skin with Waxing and Tinting',
-      slug: '/search-best-doctors',
+      slug: '/Waxing-and-Tinting',
       category: 'Pants',
       image: '/salon/skin.png',
     },
     {
       name: 'Luscious Nails & Lash Extensions',
-      slug: '/search-best-doctors',
+      slug: '/Luscious-Nails-&-Lash-Extensions',
       category: 'Pants',
       image: '/salon/nail.png',
     },
